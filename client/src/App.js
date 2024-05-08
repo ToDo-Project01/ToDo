@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit yoo <code>src/App.js</code> and save to reload.
+          Editing yoo <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
