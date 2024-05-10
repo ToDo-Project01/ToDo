@@ -18,6 +18,12 @@ const users = sequelize.define('users', {
     lastName: {
       type: DataTypes.STRING(45),
       allowNull: true
+    },email: {
+      type: DataTypes.STRING(45),
+      allowNull: true
+    },password: {
+      type: DataTypes.STRING(45),
+      allowNull: true
     },
     age: {
       type: DataTypes.INTEGER, // Corrected data type to INTEGER
