@@ -1,7 +1,7 @@
 const routerauth=require('express').Router()
 const auth=require('../Controller/authController.js')
 
-routerauth.post('/signup', auth.Signin );
-routerauth.post('/login', auth.Login );
+routerauth.post('/Signup', auth.Signin );
+routerauth.post('/Login', auth.Login );
 
 module.exports = routerauth
